@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Carolina Jennata, mahasiswi Teknologi Informasi yang fokus pada HTML semantik, CSS modern, dan aksesibilitas.">
+  <title>Carolina Jennata | Software Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="atas">
+
+  <a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
+
+  <header class="site-header">
+    <a class="logo" href="#atas" aria-label="LA, kembali ke awal halaman">LA.</a>
+
+    <nav aria-label="Navigasi Utama">
+      <ul class="nav-list">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a href="#sertifikasi">Sertifikasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="konten-utama">
+
+    <section class="hero" aria-labelledby="judul-hero">
+      <img
+        class="hero__img"
+        src="assets/images/hero.jpg"
+        width="1600"
+        height="900"
+        alt="Seorang pria berjalan di depan dinding kuning dengan lampu jalan dan jendela"
+      >
+
+      <p class="hero__intro">I’m a</p>
+
+      <h1 id="judul-hero" class="hero__title">
+        <span>Software</span>
+        <span>Developer</span>
+      </h1>
+
+      <aside class="callout" aria-labelledby="judul-callout">
+        <h2 id="judul-callout">Aside Callout!</h2>
+
+        <p>
+          Mahasiswa Teknologi Informasi yang fokus pada HTML semantik,
+          CSS modern, dan aksesibilitas.
+        </p>
+
+        <p class="btn-group">
+          <a class="btn" href="#proyek">Proyek</a>
+          <a
+            class="btn btn--ghost"
+            href="assets/cv-carolina-jennata.pdf"
+            aria-label="Lihat CV Carolina Jennata (PDF)"
+          >
+            Lihat CV
+          </a>
+        </p>
+      </aside>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <p class="marquee__track">
+        <span>
+          HTML5 ✦ CSS3 ✦ JavaScript ✦ Git ✦ Figma ✦ Aksesibilitas ✦
+          HTML5 ✦ CSS3 ✦ JavaScript ✦ Git ✦ Figma ✦ Aksesibilitas ✦
+        </span>
+      </p>
+    </div>
+
+    <section
+      id="tentang"
+      class="section about"
+      aria-labelledby="judul-tentang"
+    >
+      <h2 id="judul-tentang" class="section__title">About Me</h2>
+
+      <p class="about__text">
+        Halo! Perkenalkan nama saya Carolina Jennata, seorang mahasiswi
+        semester 3 Teknologi Informasi. Saya suka membangun antarmuka web
+        yang rapi, responsif, dan dapat diakses semua orang.
+      </p>
+
+      <aside class="quote" aria-label="Kutipan favorit">
+        <blockquote>
+          <p>
+            “Kode yang baik mudah dibaca, dan halaman yang baik bisa dipakai
+            siapa saja.”
+          </p>
+        </blockquote>
+      </aside>
+
+      <ul class="chips" aria-label="Lokasi">
+        <li>Bali</li>
+        <li>Denpasar</li>
+      </ul>
+
+      <img
+        class="about__photo"
+        src="assets/images/profile.jpg"
+        width="800"
+        height="1000"
+        alt="Foto Carolina Jennata berkacamata dan mengenakan kemeja putih"
+      >
+    </section>
+
+    <section
+      id="proyek"
+      class="section"
+      aria-labelledby="judul-proyek"
+    >
+      <h2 id="judul-proyek" class="section__title section__title--right">
+        Proyek Unggulan
+      </h2>
+
+      <div class="card-grid">
+
+        <article class="card">
+          <img
+            src="assets/images/proyek.jpg"
+            width="480"
+            height="240"
+            alt="Tangkapan layar Personal Portfolio Website berupa AI agent bergambar kucing"
+          >
+
+          <h3>Personal Portfolio Website</h3>
+
+          <p class="card__desc">
+            Website personal untuk menampilkan profil, skill, proyek,
+            dan informasi kontak dalam tampilan yang responsif.
+          </p>
+
+          <p class="card__tags">
+            HTML · CSS · JavaScript
+          </p>
+        </article>
+
+        <article class="card">
+          <img
+            src="assets/images/proyek.jpg"
+            width="480"
+            height="240"
+            alt="Tangkapan layar proyek kedua berupa AI agent bergambar kucing"
+          >
+
+          <h3>Personal Portfolio Website</h3>
+
+          <p class="card__desc">
+            Website personal untuk menampilkan profil, skill, proyek,
+            dan informasi kontak dalam tampilan yang responsif.
+          </p>
+
+          <p class="card__tags">
+            HTML · CSS · JavaScript
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section
+      id="keahlian"
+      class="section"
+      aria-labelledby="judul-keahlian"
+    >
+      <h2 id="judul-keahlian" class="section__title">
+        Tech Stack
+      </h2>
+
+      <dl class="stack">
+
+        <dt>Front-end</dt>
+        <dd>
+          <ul class="pills">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Grid</li>
+            <li>Flexbox</li>
+          </ul>
+        </dd>
+
+        <dt>Tools</dt>
+        <dd>
+          <ul class="pills">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>VS Code</li>
+            <li>DevTools</li>
+          </ul>
+        </dd>
+
+        <dt>Dipelajari</dt>
+        <dd>
+          <ul class="pills">
+            <li>React</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>TypeScript</li>
+          </ul>
+        </dd>
+
+      </dl>
+    </section>
+
+    <section
+      id="sertifikasi"
+      class="section"
+      aria-labelledby="judul-sertifikasi"
+    >
+      <h2 id="judul-sertifikasi" class="section__title">
+        Sertifikasi
+      </h2>
+
+      <div class="card-grid card-grid--cert">
+
+        <article class="card card--cert">
+          <img
+            class="card__icon"
+            src="assets/icons/sertifikat.jpg"
+            width="80"
+            height="80"
+            alt="Ikon sertifikat UI/UX Design Fundamentals"
+          >
+
+          <h3>UI/UX Design Fundamentals</h3>
+
+          <p>Great Learning · 2025</p>
+
+          <a
+            class="card__link"
+            href="#"
+            aria-label="Lihat kredensial UI/UX Design Fundamentals dari Great Learning"
+          >
+            Lihat kredensial
+            <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card card--cert">
+          <img
+            class="card__icon"
+            src="assets/icons/sertifikat.jpg"
+            width="80"
+            height="80"
+            alt="Ikon sertifikat Introduction to Cyber Security"
+          >
+
+          <h3>Introduction to Cyber Security</h3>
+
+          <p>Cisco Academy · 2025</p>
+
+          <a
+            class="card__link"
+            href="#"
+            aria-label="Lihat kredensial Introduction to Cyber Security dari Cisco Academy"
+          >
+            Lihat kredensial
+            <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card card--cert">
+          <img
+            class="card__icon"
+            src="assets/icons/sertifikat.jpg"
+            width="80"
+            height="80"
+            alt="Ikon sertifikat CCNA Introduction to Networks"
+          >
+
+          <h3>CCNA: Introduction to Networks</h3>
+
+          <p>Network Class · 2026</p>
+
+          <a
+            class="card__link"
+            href="#"
+            aria-label="Lihat kredensial CCNA: Introduction to Networks dari Network Class"
+          >
+            Lihat kredensial
+            <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <section
+      id="kontak"
+      class="section contact"
+      aria-labelledby="judul-kontak"
+    >
+      <h2 id="judul-kontak" class="section__title">
+        Kontak
+      </h2>
+
+      <p class="contact__text">
+        Tertarik bekerja sama atau sekadar menyapa? Kirim pesan.
+      </p>
+
+      <dl class="contact__links">
+
+        <dt>Email</dt>
+        <dd>
+          <a
+            href="mailto:nama@email.com"
+            aria-label="Kirim email ke nama@email.com"
+          >
+            carljennata@mail.com
+          </a>
+        </dd>
+
+        <dt>GitHub</dt>
+        <dd>
+          <a
+            href="https://github.com/username"
+            aria-label="Buka profil GitHub"
+          >
+            github.com/carljennata
+          </a>
+        </dd>
+
+        <dt>LinkedIn</dt>
+        <dd>
+          <a
+            href="https://www.linkedin.com/in/username"
+            aria-label="Buka profil LinkedIn"
+          >
+            linkedin.com/in/carljennata
+          </a>
+        </dd>
+
+      </dl>
+
+      <form class="form" action="#" method="post">
+
+        <label class="sr-only" for="nama">
+          Nama lengkap
+        </label>
+
+        <input
+          type="text"
+          id="nama"
+          name="nama"
+          placeholder="Nama Lengkap"
+          autocomplete="name"
+          required
+        >
+
+        <label class="sr-only" for="email">
+          Alamat email
+        </label>
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="nama@email.com"
+          autocomplete="email"
+          required
+        >
+
+        <label class="sr-only" for="pesan">
+          Pesan
+        </label>
+
+        <textarea
+          id="pesan"
+          name="pesan"
+          rows="4"
+          placeholder="Tulis pesan Anda"
+          required
+        ></textarea>
+
+        <button class="btn" type="submit">
+          Kirim pesan
+        </button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <p>
+      © 2026 Carolina Jennata. Seluruh hak cipta dilindungi.
+    </p>
+
+    <nav aria-label="Navigasi Footer">
+      <ul class="footer-list">
+        <li>
+          <a
+            href="https://github.com/username"
+            aria-label="GitHub Carolina Jennata"
+          >
+            GitHub
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/username"
+            aria-label="LinkedIn Carolina Jennata"
+          >
+            LinkedIn
+          </a>
+        </li>
+
+        <li>
+          <a href="#atas">
+            Kembali ke atas
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </footer>
+
+</body>
+</html>
